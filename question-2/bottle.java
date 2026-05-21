@@ -5,7 +5,7 @@ public class Bottle{
     water=w;
     left=w;
   }
-  public void updateAmound(double c){
+  public void updateAmount(double c){
     left-=c;
     if (left<water/4){
       left=water;
